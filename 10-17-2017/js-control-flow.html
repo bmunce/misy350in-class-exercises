@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS control flow exercise</title>
+    <script>
+      let my_name = "Brandon Munce";
+      console.log("My name is " + my_name + ".");
+      console.log("My name has " + my_name.length + " characters.");
+      console.log(my_name.toUpperCase());
+      </script>
+  </head>
+  <body>
+    <h1>Check console</h1>
+    <script>
+    let pi = 3.145;
+    console.log(Math.random() * pi);
+    console.log(Math.floor(pi));
+    // the grade calculator
+    let grade = 85;
+    let letter_grade;
+    if (grade >= 90){
+      console.log("A");
+    }
+    else if (grade >= 80 ) {
+      console.log("B");
+    }
+    else if (grade >= 70) {
+      console.log("C");
+    }
+    else if (grade >= 60) {
+      console.log("D");
+    }
+    else {
+      console.log("F");
+    }
+    // ternary operator
+    if (letter_grade=="A") {
+      console.log("you got an iWatch 3");
+    }
+    else {
+      console.log("nothing.");
+    }
+    letter_grade == "A" ? console.log("you got an iWatch 3")
+    : console.log("nothing.");
+    // switch
+
+    switch (true) {
+      case (grade >= 90):
+      console.log("A");
+      break;
+      case (grade >= 80):
+      console.log("B");
+      break;
+      case (grade >= 70):
+      console.log("C");
+      break;
+      case (grade >= 60):
+      console.log("D"):
+      break;
+      case (grade < 60):
+      console.log("F"):
+    }
+
+    </script>
+  </body>
+</html>
