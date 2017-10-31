@@ -9,14 +9,30 @@
     <a id="google" href="http://facebook.com">website 2</a>
     <a class="my-link" href="http://facebook.com">website 3</a>
     <a class="my-link" href="http://facebook.com">website 4</a>
-      <script>
-        document.getElementById('google').innerHTML = "Google";
-        let links = document.getElementsByClassName('my-link');
-        links[0].innerHTML = "Twitter";
-        links[0].href = "http://twitter.com";
-        links[1].innerHTML = "Linked-in";
-        links[1].href = "http://linkedin.com";
-        links[1].style.color = "red";
-      </script>
+
+    <h1>DOM is cool!</h1>
+    <button id="heading-button" type="button">change to red</button>
+    <button id="toggle-button" type="button">toggle links</button>
+
+  <div id="main-text">
+
+    <h1>HTML and CSS</h1>
+    <button class="project-button" type="button">Recent Projects</button>
+    <ul class="projects">
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+    
+
+    <h1>JavaScript</h1>
+    <button class="project-button" type="button">Recent Projects</button>
+    <ul class="projects">
+      <li>JS</li>
+      <li>jQuery</li>
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="jQuery-basics.js"></script>
+
   </body>
 </html>
