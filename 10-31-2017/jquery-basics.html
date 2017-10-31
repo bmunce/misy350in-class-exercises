@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Exercises</title>
+  </head>
+  <body>
+    <a href="http://facebook.com">website 1</a>
+    <a id="google" href="http://facebook.com">website 2</a>
+    <a class="my-link" href="http://facebook.com">website 3</a>
+    <a class="my-link" href="http://facebook.com">website 4</a>
+      <script>
+        document.getElementById('google').innerHTML = "Google";
+        let links = document.getElementsByClassName('my-link');
+        links[0].innerHTML = "Twitter";
+        links[0].href = "http://twitter.com";
+        links[1].innerHTML = "Linked-in";
+        links[1].href = "http://linkedin.com";
+        links[1].style.color = "red";
+      </script>
+  </body>
+</html>
